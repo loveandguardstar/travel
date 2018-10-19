@@ -2,34 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9f54968-bfc7-45d3-a8c4-1b046b7a6e85" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.postcssrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/build.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/check-versions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/vue-loader.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/webpack.dev.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/webpack.prod.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/dev.env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/prod.env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/border.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/.gitkeep" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/travel/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/travel/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -108,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/travel/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="576">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -157,8 +129,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="721" />
-    <option name="y" value="31" />
+    <option name="x" value="186" />
+    <option name="y" value="25" />
     <option name="width" value="1422" />
     <option name="height" value="945" />
   </component>
@@ -233,12 +205,12 @@
       <updated>1539854531848</updated>
       <workItem from="1539854533069" duration="2383000" />
       <workItem from="1539910847377" duration="7247000" />
-      <workItem from="1539926239848" duration="4334000" />
+      <workItem from="1539926239848" duration="4755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13964000" />
+    <option name="totallyTimeSpent" value="14385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="721" y="31" width="1422" height="945" extended-state="0" />
@@ -422,8 +394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/travel/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="576">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
