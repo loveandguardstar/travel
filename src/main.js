@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 import './assets/styles/reset.css'
 import './assets/styles/border.css'
+// 有一个fastclick没有安装，避免移动端点击300ms延迟
 
 Vue.config.productionTip = false
 
