@@ -48,8 +48,12 @@ export default {
     }
   },
   activated () {
-    //  需注意，在keep-life后多出来的生命周期
+    //  需注意，在keep-alive后多出来的生命周期, 进入这个页面开始监听
     window.addEventListener('scroll', this.handleScroll)
+  },
+  deactivated () {
+    // 离开这个页面开始监听
+    window.removeEventListener('scroll', this.handleScroll)
   }
 }
 </script>
