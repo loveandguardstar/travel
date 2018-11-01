@@ -48,6 +48,7 @@ export default {
     }
   },
   mounted () {
+    // 生命周期函数，适合就行
     this.getCityInfo()
   }
 }

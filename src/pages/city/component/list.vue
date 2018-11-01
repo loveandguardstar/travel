@@ -69,11 +69,11 @@ export default {
     })
   },
   watch: {
+    //  侦听器，监听父级传过来的兄弟组件数据
     letter () {
       if (this.letter) {
-        const element = this.$refs[this.letter][0] // 处理跳转
-        // console.log(element)
-        this.scroll.scrollToElement(element)
+        const element = this.$refs[this.letter][0]// 处理跳转位置
+        this.scroll.scrollToElement(element)//scroll开始跳转
       }
     }
   },

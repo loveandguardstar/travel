@@ -5,7 +5,7 @@
           v-for="item in letters"
           :key="item"
           :ref="item"
-          @touchstart="handleTouchStart"
+          @touchstart.prevent="handleTouchStart"
           @touchmove="handleTouchMove"
           @touchend="handleTouchEnd"
           @click="handleLetterClick"
@@ -41,7 +41,7 @@ export default {
   },
   methods: {
     handleLetterClick (e) {
-      this.$emit('change', e.target.innerText)
+      this.$emit('change', e.target.innerText)// 获取值传到兄弟组件，首先传到父级再传下来
     },
     handleTouchStart () {
       this.touchStatus = true
@@ -52,7 +52,7 @@ export default {
           clearTimeout(this.timer)
         }
         this.timer = setTimeout(() => {
-          const touchY = e.touches[0].clientY - 79
+          const touchY = e.touches[0].clientY - 79 // 事件对象有个touches的数组
           const index = Math.floor((touchY - this.startY) / 20)
           if (index >= 0 && index < this.letters.length) {
             this.$emit('change', this.letters[index])
