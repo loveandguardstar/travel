@@ -73,7 +73,7 @@ export default {
     letter () {
       if (this.letter) {
         const element = this.$refs[this.letter][0]// 处理跳转位置
-        this.scroll.scrollToElement(element)//scroll开始跳转
+        this.scroll.scrollToElement(element)// scroll开始跳转
       }
     }
   },
